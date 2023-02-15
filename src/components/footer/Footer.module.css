@@ -1,0 +1,24 @@
+.footer, .tasksCount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .footer, .tasksCount {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer {
+  position: relative;
+  background: rgba(0, 103, 163, 1);
+  padding: 7px 16px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.tasksCount__item {
+  margin-right: 35px;
+}

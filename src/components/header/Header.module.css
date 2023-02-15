@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  background: rgba(0, 103, 163, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 16px;
+  color: #fff;
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    justify-content: flex-end;
+  }
+  .headerLogo {
+    display: none;
+  }
+}

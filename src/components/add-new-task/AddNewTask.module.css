@@ -1,0 +1,28 @@
+.addInput, .selectTask, .optionTask, .submitButton {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.addInput, .selectTask, .optionTask {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 15px;
+  border: 0;
+}
+
+.optionTask:hover {
+  cursor: pointer;
+  background-color: #DEDEDE;
+}
+
+.submitButton {
+  border: 0;
+  cursor: pointer;
+  background: #0079BF;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 12px;
+}

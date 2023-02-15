@@ -1,0 +1,42 @@
+.userBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.user__avatar {
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.user__avatar img {
+  max-height: 40px;
+}
+
+.dropdown__menu {
+  padding: 8px;
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  font-size: 14px;
+  min-width: 134px;
+  text-align: left;
+}
+
+.menu__item {
+  padding: 5px 0px;
+  color: #000;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

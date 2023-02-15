@@ -1,0 +1,64 @@
+.list {
+  background: #EBECF0;
+  border-radius: 10px;
+  padding: 12px;
+  flex-grow: 1;
+  width: 23%;
+  margin: 0 12px 24px 12px;
+}
+
+@media (max-width: 992px) {
+  .list {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .list {
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+}
+
+.listTitle, .listItem, .noTaskListItem, .addButton {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.listItem, .noTaskListItem {
+  padding: 8px;
+  margin-top: 15px;
+}
+
+.listItem {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.taskLink {
+  color: #000;
+  text-decoration: none;
+}
+
+.taskLink:hover {
+  text-decoration: underline;
+}
+
+.addButton {
+  border: 0;
+  color: #5E6C84;
+  margin-top: 17px;
+  padding: 5px 7px;
+  background: transparent;
+}
+
+.addButton:hover {
+  background: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addButton:disabled {
+  background: transparent;
+  cursor: auto;
+}
